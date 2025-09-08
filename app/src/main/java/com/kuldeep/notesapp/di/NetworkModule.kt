@@ -24,7 +24,7 @@ class NetworkModule {
             .build()
 
     }
-
+    @Singleton
     @Provides
     fun providesUserApi(retrofit: Retrofit): UserApi {
         return retrofit.create(UserApi::class.java)
