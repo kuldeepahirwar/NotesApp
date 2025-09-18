@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.NotesApp" parent="Base.Theme.NotesApp" />
+    <style name="NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+</style>
 </resources>
