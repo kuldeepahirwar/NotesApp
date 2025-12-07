@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.kuldeep.notesapp.LoginFragment"
+        android:name="com.kuldeep.notesapp.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.kuldeep.notesapp.RegisterFragment"
+        android:name="com.kuldeep.notesapp.ui.login.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.kuldeep.notesapp.MainFragment"
+        android:name="com.kuldeep.notesapp.ui.note.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -42,7 +42,7 @@
     </fragment>
     <fragment
         android:id="@+id/noteFragment"
-        android:name="com.kuldeep.notesapp.NoteFragment"
+        android:name="com.kuldeep.notesapp.ui.note.NoteFragment"
         android:label="fragment_note"
         tools:layout="@layout/fragment_note" />
 </navigation>

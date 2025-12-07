@@ -1,11 +1,11 @@
 package com.kuldeep.notesapp.model
 
-data class User(
+data class NoteResponse(
     val __v: Int,
     val _id: String,
     val createdAt: String,
-    val email: String,
-    val password: String,
+    val description: String,
+    val title: String,
     val updatedAt: String,
-    val username: String
+    val userId: String
 )
