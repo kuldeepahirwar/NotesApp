@@ -71,6 +71,10 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.56.2")
    //Spin pit
     implementation("com.github.ybq:Android-SpinKit:1.4.0")
+    //Room for local storage
+    implementation("androidx.room:room-runtime:2.8.4")
+    kapt("androidx.room:room-compiler:2.8.4")
+    implementation("androidx.room:room-ktx:2.8.4")
 
 
 }
